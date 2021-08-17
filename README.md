@@ -1,10 +1,12 @@
 # Weather App
  
+This project is a weather application in which you can search for the weather forecast in cities.
+
 It was created with React, Redux, Styled Components. It uses The OpenWeather API.
 
 ![example-site](https://raw.githubusercontent.com/PeshoBiceps/Weather-app/master/src/weather.jpg)
 
-Created Using NodeJS, Express and MongoDB
+///
 
 [Click Here For Preview]()
 
