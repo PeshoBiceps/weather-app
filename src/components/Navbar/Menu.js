@@ -152,7 +152,6 @@ const Options2 = styled.div`
   }
   label {
     cursor: pointer;
-    background-color: red;
     width: 100%;
     display: block;
     height: 100%;
