@@ -90,10 +90,17 @@ const Button = styled.button`
   border: none;
   outline: none;
   cursor: pointer;
+  @media(max-width: 768px){
+    cursor: none;
+  }
+  
 `;
 const SearchIcon = styled(FaSearch)`
   position: fixed;
   top: 24px;
   left: 20px;
   cursor: pointer;
+  @media(max-width: 768px){
+    cursor: none;
+  }
 `;

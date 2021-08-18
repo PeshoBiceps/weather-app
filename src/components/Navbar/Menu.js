@@ -14,7 +14,7 @@ const Menu = () => {
 
   const variants = {
     open: { opacity: 1, x: 0 },
-    closed: { opacity: 0, x: 0 },
+    closed: { display: 'none', opacity: 0, x: 0 },
   };
 
   const onChangeValue = (e) => {
@@ -94,15 +94,21 @@ const MenuIcon = styled(FaEllipsisV)`
   top: 24px;
   right: 20px;
   cursor: pointer;
+  @media(max-width: 768px){
+    cursor: none;
+  }
 `;
 const Wrap = styled.div`
   position: fixed;
   top: 54px;
   right: 44px;
-  width: 180px;
+  width: 140px;
   height: 50px;
   background-color: #313131;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.75);
 `;
 const WrapItems = styled.div`
@@ -110,15 +116,13 @@ const WrapItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 
   span {
     padding: 6px 0 6px 0;
-    width: 100%;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 1px;
-    border-bottom: 1px solid #5a5a5a;
     cursor: pointer;
   }
 `;
