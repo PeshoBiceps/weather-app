@@ -8,7 +8,7 @@ It was created with React, Redux, Styled Components. It uses The OpenWeather API
 
 ///
 
-[Click Here For Preview]()
+[Click Here For Preview](https://weather-app-bg-2021.web.app/)
 
 
 ## App Features
