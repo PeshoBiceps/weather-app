@@ -18,7 +18,6 @@ It was created with React, Redux, Styled Components. It uses The OpenWeather API
 
 ## Tech Stack
 
-- Webpack 
 - React
 - Redux
 - Styled Components
