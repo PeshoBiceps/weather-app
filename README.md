@@ -2,7 +2,7 @@
  
 This project is a weather forecast application.
 
-It was created with React, Redux, Styled Components. It uses The OpenWeather API.
+It was created with React, Redux, Styled Components. It uses The OpenWeather API and Google Geocoding API.
 
 ![example-site](https://raw.githubusercontent.com/PeshoBiceps/Weather-app/master/src/weather.jpg)
 
