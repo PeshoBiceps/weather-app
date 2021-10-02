@@ -1,4 +1,6 @@
 # Weather App
+
+//need to fix navbar
  
 This project is a weather forecast application.
 
